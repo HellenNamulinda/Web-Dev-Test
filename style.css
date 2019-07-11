@@ -1,19 +1,17 @@
 .header {
-    width: 30%;
-    margin: 0px auto 0px;
-    color:white;
+    width: 100%;
+    margin: 0px auto 0px; 
     background: #5F9EA0;
-    text-align: center;
+    text-align: right;
     border: 1px solid #B0C4DE;
     border-bottom: none;
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
   }
+   
   header nav{
     float: right;
     opacity: 1;
-}
-
 
 header nav ul{
     margin-top: 40px;
@@ -23,7 +21,7 @@ header nav ul{
 }
 
 header nav ul li{
-    float: left;
+    float: right;
     margin-left: 50px;
 }
 
