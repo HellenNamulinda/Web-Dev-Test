@@ -3,56 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta author="Hellen Namulinda">
-    <title>HTML5 TEST</title>
-  </head>
-  <main> 
-   <header>
-       <h1 style="text-align: center"><u>Sample letter in html5</u></h1>
-    </header>
-    <div style="display:inline-block">
-
-    <p style="float: left">NAMULINDA HELLEN,<br/>Tel: +256 772448548/753862466<br />Email: hellennamulinda@gmail.com</p>       
- 
-          <img src="photo.jpg" alt="my photo" width="100px" height="100px" style="float: right">
-        </div>
-      </div>
-      <p>
-        9th- July- 2019
-      </p>     
-            
-      <p>The Hiring Manager, <br />  <br />Kampala, Uganda</p>
-             
-<p>Dear Sir/Madam, </p>
-<p>
-  <h2 style="text-align:justify">
-    RE:<u>APPLICATION FOR PLACEMENT</u>
-  </h2>
-</p>
-
-<p>
-I am writing to request for the placement of graduate trainee with your company. I have acquired a bachelors degree of science in computer science of Makerere University. 
-I am confident that undertaking a graduate trainee programme with your company will enable me to gain valuable experience in the industry.
+    <title>Hellen's Todo List App</title>
+    <link rel="stylesheet" href="css.css" type="text/css" media="screen" charset="utf-8">
+    
+  </head>   
+    <body>
+           
+       <h1><u>My TODO List App</u></h1> 
         
-</p>
-<p>
- I gained extensive knowledge of programming languages, networks and technology infrastructures. 
- I possess extensive knowledge of MS Office programs. I also have strong knowledge of databases, web apps. 
- I have excellent problem-solving and time-management skills with the ability to manage multiple projects at once.
-</p>
-<p>
-I have very strong interpersonal skills with the ability to speak in a clear, concise manner. 
-I can work well as part of a group and follow the lead of others but I am also self-motivated and able to work alone and meet deadlines.
-</p>
-<p>
-I have engaged in trainings where I gained hands on experience, organizational skills and the ability to work and stay focused in a fast paced, stressful environment.
- I was also able to sharpen my communication skills which are important when building professional networks both with colleagues and clients. 
-</p>
-<p>
-I am interested in gaining experience while working with you, I therefore, welcome the opportunity to work with you in order to build my skills as well as to ensure continuity of your exceptional service to your clients.
-</p>
-<p>
-  Thank you for your time and consideration.
-</p>
-<p>Sincerely<br /> Namulinda hellen</p>
-  </main>
-</html>
+        <div class="container">
+          <p>
+            <label for="new-task">Add Item</label>
+            <input id="new-task" type="text">
+            <button>Add</button>
+          </p>
+          
+          <h3>Todo</h3>
+          <ul id="incomplete-tasks">
+            <li>
+              <input type="checkbox">
+              <label>Travel</label>
+              <input type="text">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </li>
+          </ul>
+          
+          <h3>Completed</h3>
+          <ul id="completed-tasks">
+            <li>
+              <input type="checkbox" checked="">
+              <label>Visit Mom</label>
+              <input type="text">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </li>
+          </ul>
+        </div>
+        <script src="javascript.js"></script>
+      </body>
+    </html>
