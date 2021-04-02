@@ -1,17 +1,17 @@
 body {
-  background: rgb(225, 230, 230);
+  background: rgb(212, 216, 219);
   color: #333;
   font-family: Lato, sans-serif;
   margin-bottom: 50px;
 } 
 
 h1{
-   text-align: center;
+   text-align: center; 
 }
 .container {
   display: block;
-  width: 600px;
-  margin: 100px auto 0;
+  max-width: 600px;
+  margin: 50px auto 0;
   border: 2px solid grey;
 }
 ul {
@@ -31,11 +31,10 @@ input, button {
 button {
   background: none;
   border: 0px;
-  color: #888;
+  color: rgb(12, 11, 11);
   font-size: 15px;
   width: 60px;
-  margin: 10px 0 0;
-  font-family: Lato, sans-serif;
+  margin: 10px 0 0; 
   cursor: pointer;
 }
 button:hover {
@@ -47,22 +46,21 @@ label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 4px solid rgb(52, 227, 233);
+  border-bottom: 2px solid rgb(52, 227, 233);
   padding: 30px 0 10px; 
   text-align: center;
   text-transform: uppercase;
 }
 input[type="text"] {
   margin: 5px;
-  font-size: 18px;
-  line-height: 18px;
-  height: 18px;
+  font-size: 18px; 
+  height: 20px;
   padding: 10px;
   border: 1px solid ghostwhite;
-  background: #fff;
+  background: rgb(182, 211, 245);
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
+  color: black;
 }
 input[type="text"]:focus {
   color: #333;
